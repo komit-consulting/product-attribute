@@ -6,3 +6,4 @@
   - Sergio Teruel
 - [Komit](https://komit-consulting.com):
   - Vang Nguyen Phu
+  - Quan Nguyen
