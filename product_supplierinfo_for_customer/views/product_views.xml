@@ -52,9 +52,9 @@
                         </div>
                         <label for="date_start" string="Validity" />
                         <div><field name="date_start" class="oe_inline" /> to <field
-                                name="date_end"
-                                class="oe_inline"
-                            /></div>
+                            name="date_end"
+                            class="oe_inline"
+                        /></div>
                     </group>
                     <group string="Other Information" groups="base.group_multi_company">
                         <field
