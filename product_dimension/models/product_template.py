@@ -16,6 +16,7 @@ class ProductTemplate(models.Model):
         related="product_variant_ids.dimensional_uom_id",
         help="UoM for length, height, width",
         readonly=False,
+        domain=lambda self: self.env["product.product"]._get_dimension_uom_domain(),
     )
     product_length = fields.Float(
         related="product_variant_ids.product_length", readonly=False
